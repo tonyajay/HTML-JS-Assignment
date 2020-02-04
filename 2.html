@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="HTML page to enter the Name, age, sex, religion and address details using Labels, Textbox, Dropdown and Submit button">
+        <title>
+            Enter the details
+        </title>
+    </head>
+<body>
+    <h1>Fill in the required details</h1>
+  <form method="post" action="/action ">
+  <label for="name">Name </label>
+  <input type="text" id="name" ><br>
+      <p></p>
+  <label for="age">Age &nbsp;</label>
+  <input type="text" id="age"  ><br>
+      <p></p>
+  <label for="sex">Sex &nbsp;</label>
+  <select>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+  </select><br>
+      <p></p>
+  <label for="religion">Religion </label> 
+  <select>
+   <option value="hindu">Hindu</option>
+   <option value="sikh">Sikh</option>
+   <option value="christian">Christian</option>
+   <option value="muslim">Muslim</option>          
+  </select><br>
+      <p></p>
+  <label for="address">Address</label><br>
+  <textarea id="address"
+            rows="4"
+            cols="20"
+            wrap="soft">
+            </textarea><br><br>          
+  <input type="submit" value="Submit">
+  </form>
+</body>        
+</html>
